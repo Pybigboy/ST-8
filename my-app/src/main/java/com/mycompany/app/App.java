@@ -1,11 +1,5 @@
 package com.mycompany.app;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
-
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -17,9 +11,15 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+
 public class App {
     public static void main(String[] args) {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Admin\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "D:\\Users\\sarafan\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
 
         String downloadFilepath = System.getProperty("user.dir") + "\\result";
 
